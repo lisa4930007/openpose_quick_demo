@@ -1,54 +1,42 @@
 # openpose_quick_demo
 
-環境
-windows GPU 安裝 cudnn..
-Anaconda3 - python with basic library
+# Prerequisites:
+OS: Windows (8, 10) with CUDA (Nvidia GPU)
 
+# Download and install
+1.CUDA 8 & cuDNN 5.1
+2.Anaconda3 - python with basic library
 
-
-
+# Steps:
 1.Download the files.
-2.Check configurations in **configuration** section
+2.Put your target videos into folder "target_videos" and ready for the execution.
+(待確認) Video's extention should be '.mp4' or '.avi'.
 
-Put your target videos into folder "target_videos" and ready for the execution.
-Video's extention should be '.mp4' or '.avi'.
-
+3.Check configurations in **configuration** section
 
 body = True
 face = False
 hand = False
 
-use 3 parameters to decide 5 detection modes:
-# body+face+hand
-# body+hand
-# body+face
-# only face => 
-# only body
+**use "body", "face", "hand" to decide 5 detection modes:**
+1.body+face+hand
+2.body+hand
+3.body+face
+4.only face [Note that option only possible for faster (but less accurate) face keypoint detection.]
+5.only body
 
-use_gpu = True
-display_processed_window = False **default
-
-
+use_gpu = True [Otherwise, run on CPU.]
+display_processing_window = False [Display the processing_window or not]
 
 save_as_json = True
 save_as_video = False
 save_as_images = Fale
 
-
-output_json
-output_video
-output_images
-
-
 3.Run the "runop.py" script.
+4.Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images" respectively.
 
- 
+# [Output Format](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md)
 
-
-json 
-
-節點 請參考
-
-
-其他用法
-可以直接用command line 然後flag可參考
+# Advanced 
+directly use command line
+[flag參考](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/demo_overview.md)
