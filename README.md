@@ -35,8 +35,9 @@ save_as_images = Fale
 3.Run the "runop.py" script.
 4.Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images" respectively.
 
-# [Output Format](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md)
+# Output Format
+[link](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md)
 
 # Advanced 
-directly use command line
+directly use command line 
 [flag參考](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/demo_overview.md)
