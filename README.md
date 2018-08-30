@@ -1,11 +1,11 @@
 # openpose_quick_demo
 
-# Prerequisites:
+# Prerequisites: 
 OS: Windows (8, 10) with CUDA (Nvidia GPU)
 
 # Download and install
-1.CUDA 8 & cuDNN 5.1
-2.Anaconda3 - python with basic library
+1.CUDA 8 & cuDNN 5.1<br/>
+2.Anaconda3 - python with basic library<br/>
 
 # Steps:
 1.Download the files.
