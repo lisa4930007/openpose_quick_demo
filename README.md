@@ -19,7 +19,6 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 > body = True<br/>
 > face = False<br/>
 > hand = False<br/>
-
 >> use "body", "face", "hand" to decide 5 detection modes:<br/>
 >>- body+face+hand<br/>
 >>- body+hand<br/>
@@ -27,9 +26,8 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 >>- only face **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
 >>- only body<br/>
 
-> use_gpu = True **[Otherwise, run on CPU.]**<br/>
+> run_on_gpu = True **[Otherwise, run on CPU.]**<br/>
 > display_processing_window = False **[Display the processing_window or not]**<br/>
-
 > save_as_json = True<br/>
 > save_as_video = False<br/>
 > save_as_images = Fale<br/>
