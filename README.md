@@ -30,7 +30,7 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 > save_as_video = False<br/>
 > save_as_images = Fale<br/>
 
-4. Run the "runop.py" script!<br/>
+4. Run the script!<br/>
 5. Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images", respectively.
 
 
