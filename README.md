@@ -8,7 +8,7 @@ OS: Windows (8, 10) with CUDA (Nvidia GPU)
 2. Anaconda3 which contains python with basic library <br/>
 
 ## Follow the steps:
-1. Download .zip file.<br/>
+1. Download [openpose_quick_demo.zip](https://drive.google.com/file/d/1NZDv_lqPTIm7O-yfCI3T6puDZ49KSlit/view?usp=sharing) file.<br/>
 2. Put your target videos into folder "target_videos" and ready for the execution.<br/>
 (待確認) Video's extention should be '.mp4' or '.avi'.<br/>
 
