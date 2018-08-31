@@ -20,12 +20,12 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 > face = False<br/>
 > hand = False<br/>
 <br/>
->>  use "body", "face", "hand" to decide 5 detection modes:<br/>
->> - body+face+hand<br/>
->> - body+hand<br/>
->> - body+face<br/>
->> - only face **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
->> - only body<br/>
+>> use "body", "face", "hand" to decide 5 detection modes:<br/>
+>>- body+face+hand<br/>
+>>- body+hand<br/>
+>>- body+face<br/>
+>>- only face **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
+>>- only body<br/>
 <br/>
 > use_gpu = True **[Otherwise, run on CPU.]**<br/>
 > display_processing_window = False **[Display the processing_window or not]**<br/>
