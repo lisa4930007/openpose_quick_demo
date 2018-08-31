@@ -18,7 +18,7 @@ body = True<br/>
 face = False<br/>
 hand = False<br/>
 <br/>
-*   use "body", "face", "hand" to decide 5 detection modes:<br/>
+> use "body", "face", "hand" to decide 5 detection modes:<br/>
 - body+face+hand<br/>
 - body+hand<br/>
 - body+face<br/>
