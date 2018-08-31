@@ -23,17 +23,16 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 >>- body+face+hand<br/>
 >>- body+hand<br/>
 >>- body+face<br/>
->>- only face **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
+>>- only face   **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
 >>- only body<br/>
 
-> run_on_gpu = True **[Otherwise, run on CPU.]**<br/>
-> display_processing_window = False **[Display the processing_window or not]**<br/>
+> run_on_gpu = True   **[Otherwise, run on CPU.]**<br/>
+> display_processing_window = False   **[Display the processing_window or not]**<br/>
 > save_as_json = True<br/>
 > save_as_video = False<br/>
 > save_as_images = Fale<br/>
 
 4. Run the "runop.py" script!<br/>
-<br/>
 5. Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images", respectively.
 
 
