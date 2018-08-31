@@ -14,9 +14,9 @@ OS: Windows (8, 10) with CUDA (Nvidia GPU)
 
 3. Open "runop.py" script in program editor(Spyder), and check configurations in **configurations** section<br/>
 You can set "True" or "False" for each parameters to decide to run it or not according to your purpose.
-> body = True
-> face = False
-> hand = False
+> body = True<br/>
+> face = False<br/>
+> hand = False<br/>
 >> use "body", "face", "hand" to decide 5 detection modes:
 >>- body+face+hand
 >>- body+hand
@@ -26,9 +26,9 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 
 > run_on_gpu = True   **[Otherwise, run on CPU.]**<br/>
 > display_processing_window = False   **[Display the processing_window or not]**<br/>
-> save_as_json = True
-> save_as_video = False
-> save_as_images = Fale
+> save_as_json = True<br/>
+> save_as_video = False<br/>
+> save_as_images = Fale<br/>
 
 4. Run the "runop.py" script!<br/>
 5. Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images", respectively.
