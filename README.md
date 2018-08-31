@@ -19,25 +19,26 @@ You can set "True" or "False" for each parameters to decide to run it or not acc
 > body = True<br/>
 > face = False<br/>
 > hand = False<br/>
-<br/>
+
 >> use "body", "face", "hand" to decide 5 detection modes:<br/>
 >>- body+face+hand<br/>
 >>- body+hand<br/>
 >>- body+face<br/>
 >>- only face **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
 >>- only body<br/>
-<br/>
+
 > use_gpu = True **[Otherwise, run on CPU.]**<br/>
 > display_processing_window = False **[Display the processing_window or not]**<br/>
-<br/>
+
 > save_as_json = True<br/>
 > save_as_video = False<br/>
 > save_as_images = Fale<br/>
-<br/>
+
 4. Run the "runop.py" script!<br/>
 <br/>
 5. Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images", respectively.
-<br/>
+
+
 ## Output Format
 Please look at details from [link](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md)
 
