@@ -13,24 +13,22 @@ OS: Windows (8, 10) with CUDA (Nvidia GPU)
 (待確認) Video's extention should be '.mp4' or '.avi'.<br/>
 
 3. Open "runop.py" script in program editor(Spyder), and check configurations in **configurations** section<br/>
-<br/>
 You can set "True" or "False" for each parameters to decide to run it or not according to your purpose.
-
-> body = True<br/>
-> face = False<br/>
-> hand = False<br/>
->> use "body", "face", "hand" to decide 5 detection modes:<br/>
->>- body+face+hand<br/>
->>- body+hand<br/>
->>- body+face<br/>
+> body = True
+> face = False
+> hand = False
+>> use "body", "face", "hand" to decide 5 detection modes:
+>>- body+face+hand
+>>- body+hand
+>>- body+face
 >>- only face   **[Note that option only possible for faster (but less accurate) face keypoint detection.]**<br/>
->>- only body<br/>
+>>- only body
 
 > run_on_gpu = True   **[Otherwise, run on CPU.]**<br/>
 > display_processing_window = False   **[Display the processing_window or not]**<br/>
-> save_as_json = True<br/>
-> save_as_video = False<br/>
-> save_as_images = Fale<br/>
+> save_as_json = True
+> save_as_video = False
+> save_as_images = Fale
 
 4. Run the "runop.py" script!<br/>
 5. Output data "skeleton json files", "processing video", "processing images" are stored in folders "output_json", "output_video, "output_images", respectively.
